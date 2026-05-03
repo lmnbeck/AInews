@@ -50,7 +50,7 @@ export default function ArticlePage() {
       />
 
       {/* Hero Image */}
-      <div className="relative w-full h-[50vh] min-h-[400px] overflow-hidden">
+      <div className="relative w-full h-[50vh] min-h-[400px] overflow-hidden -mt-12">
         <img
           src={article.image}
           alt={article.title}

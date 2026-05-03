@@ -1,7 +1,14 @@
 "use client";
 
-import { useState } from "react";
-import { getSalesByMonth, getSalesByYear } from "@/lib/salesData";
+import { useState, useEffect } from "react";
+
+interface SalesItem {
+  rank: number;
+  brand: string;
+  model: string;
+  sales: number;
+  change: number;
+}
 
 const months = [
   { value: "2026-01", label: "2026年1月" },
@@ -26,22 +33,40 @@ export default function SalesRanking() {
   const [period, setPeriod] = useState<"monthly" | "yearly">("monthly");
   const [selectedMonth, setSelectedMonth] = useState("2026-06");
   const [selectedYear, setSelectedYear] = useState("2026");
+  const [rank, setRank] = useState<SalesItem[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const salesData =
-    period === "monthly"
-      ? (() => {
-          const [y, m] = selectedMonth.split("-").map(Number);
-          return getSalesByMonth(y, m);
-        })()
-      : getSalesByYear(Number(selectedYear));
+  useEffect(() => {
+    setLoading(true);
+    const params =
+      period === "monthly"
+        ? selectedMonth.split("-")
+        : [selectedYear];
 
-  const rank = (salesData?.items ?? []).slice(0, 10);
+    const query =
+      period === "monthly"
+        ? `year=${params[0]}&month=${params[1]}`
+        : `year=${params[0]}`;
+
+    fetch(`/api/sales?${query}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setRank((data?.items ?? []).slice(0, 10));
+      })
+      .catch(() => {
+        setRank([]);
+      })
+      .finally(() => setLoading(false));
+  }, [period, selectedMonth, selectedYear]);
 
   return (
-    <div className="sticky top-24 bg-apple-card rounded-2xl border border-apple-border/30 p-5">
+    <div className="bg-apple-card rounded-2xl border border-apple-border/30 p-5">
       {/* Header */}
       <h3 className="text-base font-bold text-apple-text mb-1">销量排行榜</h3>
-      <p className="text-xs text-apple-secondary/60 mb-4">数据来源：乘联会</p>
+      <p className="text-xs text-apple-secondary/60 mb-4">
+        <span>数据来源：汽车之家</span>
+        {loading && <span className="ml-2 text-apple-accent">更新中...</span>}
+      </p>
 
       {/* Period toggle */}
       <div className="flex bg-apple-bg rounded-lg p-0.5 mb-4">
@@ -84,7 +109,12 @@ export default function SalesRanking() {
       </select>
 
       {/* Ranking list */}
-      <div className="space-y-3">
+      <div className="space-y-3 min-h-[200px]">
+        {rank.length === 0 && !loading && (
+          <p className="text-xs text-apple-secondary/50 text-center py-8">
+            暂无数据
+          </p>
+        )}
         {rank.map((item, index) => (
           <div
             key={`${item.brand}-${item.model}`}
@@ -118,7 +148,6 @@ export default function SalesRanking() {
                   item.change >= 0 ? "text-green-500" : "text-red-500"
                 }`}
               >
-                {/* Arrow icon */}
                 <svg
                   className="w-2.5 h-2.5"
                   fill="currentColor"

@@ -35,7 +35,11 @@ function HomeContent() {
 
   return (
     <>
-      {heroArticle && activeCategory === "all" && <Hero article={heroArticle} />}
+      {heroArticle && activeCategory === "all" && (
+        <div className="-mt-12">
+          <Hero article={heroArticle} />
+        </div>
+      )}
 
       <div className="max-w-8xl mx-auto px-4 md:px-6 py-8">
         <div className="flex flex-col lg:flex-row gap-8">

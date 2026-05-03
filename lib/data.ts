@@ -41,7 +41,7 @@ export const siteMetadata = {
   name: "AutoNews",
   title: "AutoNews - 全球汽车资讯",
   description: "全球最新汽车资讯、新车发布、试驾评测、技术前沿、新能源汽车资讯一网打尽",
-  url: "https://autonews.vercel.app",
+  url: "https://autonews-zeta.vercel.app",
   siteName: "AutoNews",
   siteLogo: "/logo.png",
   locale: "zh-CN",

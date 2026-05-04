@@ -10,14 +10,19 @@ interface SalesItem {
   change: number;
 }
 
-const months = [
-  { value: "2026-01", label: "2026年1月" },
-  { value: "2026-02", label: "2026年2月" },
-  { value: "2026-03", label: "2026年3月" },
-  { value: "2026-04", label: "2026年4月" },
-  { value: "2026-05", label: "2026年5月" },
-  { value: "2026-06", label: "2026年6月" },
-];
+// Dynamically generate months up to 2 months before current (reporting lag)
+const now = new Date();
+const currentYear = now.getFullYear();
+const currentMonth = now.getMonth() + 1;
+const latestDataMonth = currentMonth > 1 ? currentMonth - 1 : 12; // Previous month
+const monthNames = ["1月","2月","3月","4月","5月","6月","7月","8月","9月","10月","11月","12月"];
+const months: { value: string; label: string }[] = [];
+for (let m = 1; m <= latestDataMonth; m++) {
+  const mm = String(m).padStart(2, "0");
+  months.push({ value: `${currentYear}-${mm}`, label: `${currentYear}年${monthNames[m-1]}` });
+}
+// Sort descending so latest is first in dropdown
+months.reverse();
 
 const years = [
   { value: "2024", label: "2024年" },
@@ -31,7 +36,7 @@ function formatNumber(num: number): string {
 
 export default function SalesRanking() {
   const [period, setPeriod] = useState<"monthly" | "yearly">("monthly");
-  const [selectedMonth, setSelectedMonth] = useState("2026-06");
+  const [selectedMonth, setSelectedMonth] = useState(months[0]?.value || `${currentYear}-04`);
   const [selectedYear, setSelectedYear] = useState("2026");
   const [rank, setRank] = useState<SalesItem[]>([]);
   const [loading, setLoading] = useState(true);

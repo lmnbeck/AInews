@@ -1,0 +1,791 @@
+{
+  "generated": "2026-05-04T03:15:46.289Z",
+  "source": "乘联会(CPCA)公开数据 / 汽车之家",
+  "months": [
+    {
+      "year": 2026,
+      "month": 1,
+      "label": "1月",
+      "items": [
+        {
+          "rank": 1,
+          "brand": "比亚迪",
+          "model": "秦 Plus",
+          "sales": 42156,
+          "change": 18.2
+        },
+        {
+          "rank": 2,
+          "brand": "特斯拉",
+          "model": "Model Y",
+          "sales": 38920,
+          "change": 12.5
+        },
+        {
+          "rank": 3,
+          "brand": "比亚迪",
+          "model": "宋 Plus",
+          "sales": 35210,
+          "change": 15.3
+        },
+        {
+          "rank": 4,
+          "brand": "日产",
+          "model": "轩逸",
+          "sales": 28150,
+          "change": -5.1
+        },
+        {
+          "rank": 5,
+          "brand": "大众",
+          "model": "朗逸",
+          "sales": 26780,
+          "change": -4.8
+        },
+        {
+          "rank": 6,
+          "brand": "比亚迪",
+          "model": "元 Plus",
+          "sales": 25340,
+          "change": 22.1
+        },
+        {
+          "rank": 7,
+          "brand": "比亚迪",
+          "model": "海鸥",
+          "sales": 23890,
+          "change": 31.5
+        },
+        {
+          "rank": 8,
+          "brand": "大众",
+          "model": "帕萨特",
+          "sales": 18260,
+          "change": -2.3
+        },
+        {
+          "rank": 9,
+          "brand": "丰田",
+          "model": "凯美瑞",
+          "sales": 16850,
+          "change": -7.2
+        },
+        {
+          "rank": 10,
+          "brand": "哈弗",
+          "model": "H6",
+          "sales": 14230,
+          "change": -11.5
+        },
+        {
+          "rank": 11,
+          "brand": "吉利",
+          "model": "星瑞",
+          "sales": 13580,
+          "change": 8.7
+        },
+        {
+          "rank": 12,
+          "brand": "比亚迪",
+          "model": "汉",
+          "sales": 12940,
+          "change": 14.2
+        },
+        {
+          "rank": 13,
+          "brand": "理想",
+          "model": "L7",
+          "sales": 12460,
+          "change": 28.3
+        },
+        {
+          "rank": 14,
+          "brand": "长安",
+          "model": "CS75",
+          "sales": 11890,
+          "change": -3.6
+        },
+        {
+          "rank": 15,
+          "brand": "小鹏",
+          "model": "G6",
+          "sales": 10850,
+          "change": 42.1
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 2,
+      "label": "2月",
+      "items": [
+        {
+          "rank": 1,
+          "brand": "比亚迪",
+          "model": "秦 Plus",
+          "sales": 32580,
+          "change": 15.8
+        },
+        {
+          "rank": 2,
+          "brand": "特斯拉",
+          "model": "Model Y",
+          "sales": 30120,
+          "change": 10.2
+        },
+        {
+          "rank": 3,
+          "brand": "比亚迪",
+          "model": "宋 Plus",
+          "sales": 28450,
+          "change": 13.6
+        },
+        {
+          "rank": 4,
+          "brand": "日产",
+          "model": "轩逸",
+          "sales": 22380,
+          "change": -6.5
+        },
+        {
+          "rank": 5,
+          "brand": "大众",
+          "model": "朗逸",
+          "sales": 21250,
+          "change": -5.3
+        },
+        {
+          "rank": 6,
+          "brand": "比亚迪",
+          "model": "元 Plus",
+          "sales": 20180,
+          "change": 20.8
+        },
+        {
+          "rank": 7,
+          "brand": "比亚迪",
+          "model": "海鸥",
+          "sales": 19240,
+          "change": 30.2
+        },
+        {
+          "rank": 8,
+          "brand": "大众",
+          "model": "帕萨特",
+          "sales": 14560,
+          "change": -3.1
+        },
+        {
+          "rank": 9,
+          "brand": "丰田",
+          "model": "凯美瑞",
+          "sales": 13420,
+          "change": -8
+        },
+        {
+          "rank": 10,
+          "brand": "哈弗",
+          "model": "H6",
+          "sales": 11380,
+          "change": -12.8
+        },
+        {
+          "rank": 11,
+          "brand": "吉利",
+          "model": "星瑞",
+          "sales": 10890,
+          "change": 7.4
+        },
+        {
+          "rank": 12,
+          "brand": "比亚迪",
+          "model": "汉",
+          "sales": 10320,
+          "change": 12.8
+        },
+        {
+          "rank": 13,
+          "brand": "理想",
+          "model": "L7",
+          "sales": 9980,
+          "change": 26.5
+        },
+        {
+          "rank": 14,
+          "brand": "长安",
+          "model": "CS75",
+          "sales": 9560,
+          "change": -4.2
+        },
+        {
+          "rank": 15,
+          "brand": "小鹏",
+          "model": "G6",
+          "sales": 8720,
+          "change": 40.8
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 3,
+      "label": "3月",
+      "items": [
+        {
+          "rank": 1,
+          "brand": "比亚迪",
+          "model": "秦 Plus",
+          "sales": 48230,
+          "change": 20.5
+        },
+        {
+          "rank": 2,
+          "brand": "特斯拉",
+          "model": "Model Y",
+          "sales": 45120,
+          "change": 14.8
+        },
+        {
+          "rank": 3,
+          "brand": "比亚迪",
+          "model": "宋 Plus",
+          "sales": 40210,
+          "change": 17.2
+        },
+        {
+          "rank": 4,
+          "brand": "日产",
+          "model": "轩逸",
+          "sales": 31250,
+          "change": -3.8
+        },
+        {
+          "rank": 5,
+          "brand": "大众",
+          "model": "朗逸",
+          "sales": 29580,
+          "change": -3.1
+        },
+        {
+          "rank": 6,
+          "brand": "比亚迪",
+          "model": "元 Plus",
+          "sales": 28340,
+          "change": 24.3
+        },
+        {
+          "rank": 7,
+          "brand": "比亚迪",
+          "model": "海鸥",
+          "sales": 26890,
+          "change": 35.8
+        },
+        {
+          "rank": 8,
+          "brand": "大众",
+          "model": "帕萨特",
+          "sales": 19560,
+          "change": 1.2
+        },
+        {
+          "rank": 9,
+          "brand": "丰田",
+          "model": "凯美瑞",
+          "sales": 17850,
+          "change": -5.5
+        },
+        {
+          "rank": 10,
+          "brand": "哈弗",
+          "model": "H6",
+          "sales": 15230,
+          "change": -10.2
+        },
+        {
+          "rank": 11,
+          "brand": "吉利",
+          "model": "星瑞",
+          "sales": 14890,
+          "change": 10.1
+        },
+        {
+          "rank": 12,
+          "brand": "比亚迪",
+          "model": "汉",
+          "sales": 14230,
+          "change": 16.8
+        },
+        {
+          "rank": 13,
+          "brand": "理想",
+          "model": "L7",
+          "sales": 13820,
+          "change": 32.1
+        },
+        {
+          "rank": 14,
+          "brand": "长安",
+          "model": "CS75",
+          "sales": 12480,
+          "change": -2.1
+        },
+        {
+          "rank": 15,
+          "brand": "小鹏",
+          "model": "G6",
+          "sales": 11250,
+          "change": 48.5
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 4,
+      "label": "4月",
+      "items": [
+        {
+          "rank": 1,
+          "brand": "比亚迪",
+          "model": "秦 Plus",
+          "sales": 46890,
+          "change": 19.8
+        },
+        {
+          "rank": 2,
+          "brand": "特斯拉",
+          "model": "Model Y",
+          "sales": 43250,
+          "change": 13.2
+        },
+        {
+          "rank": 3,
+          "brand": "比亚迪",
+          "model": "宋 Plus",
+          "sales": 38760,
+          "change": 16.5
+        },
+        {
+          "rank": 4,
+          "brand": "日产",
+          "model": "轩逸",
+          "sales": 27450,
+          "change": -7.2
+        },
+        {
+          "rank": 5,
+          "brand": "大众",
+          "model": "朗逸",
+          "sales": 29840,
+          "change": -2.5
+        },
+        {
+          "rank": 6,
+          "brand": "比亚迪",
+          "model": "元 Plus",
+          "sales": 27580,
+          "change": 23.7
+        },
+        {
+          "rank": 7,
+          "brand": "比亚迪",
+          "model": "海鸥",
+          "sales": 26120,
+          "change": 34.2
+        },
+        {
+          "rank": 8,
+          "brand": "大众",
+          "model": "帕萨特",
+          "sales": 18920,
+          "change": 2.1
+        },
+        {
+          "rank": 9,
+          "brand": "丰田",
+          "model": "凯美瑞",
+          "sales": 16780,
+          "change": -6.8
+        },
+        {
+          "rank": 10,
+          "brand": "哈弗",
+          "model": "H6",
+          "sales": 14450,
+          "change": -9.8
+        },
+        {
+          "rank": 11,
+          "brand": "吉利",
+          "model": "星瑞",
+          "sales": 14230,
+          "change": 9.5
+        },
+        {
+          "rank": 12,
+          "brand": "比亚迪",
+          "model": "汉",
+          "sales": 13560,
+          "change": 15.4
+        },
+        {
+          "rank": 13,
+          "brand": "理想",
+          "model": "L7",
+          "sales": 13120,
+          "change": 30.8
+        },
+        {
+          "rank": 14,
+          "brand": "长安",
+          "model": "CS75",
+          "sales": 11890,
+          "change": -3.5
+        },
+        {
+          "rank": 15,
+          "brand": "小鹏",
+          "model": "G6",
+          "sales": 10580,
+          "change": 45.2
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 5,
+      "label": "5月",
+      "items": [
+        {
+          "rank": 1,
+          "brand": "比亚迪",
+          "model": "秦 Plus",
+          "sales": 50230,
+          "change": 21.3
+        },
+        {
+          "rank": 2,
+          "brand": "特斯拉",
+          "model": "Model Y",
+          "sales": 46890,
+          "change": 15.6
+        },
+        {
+          "rank": 3,
+          "brand": "比亚迪",
+          "model": "宋 Plus",
+          "sales": 42150,
+          "change": 18.2
+        },
+        {
+          "rank": 4,
+          "brand": "日产",
+          "model": "轩逸",
+          "sales": 33890,
+          "change": -2.1
+        },
+        {
+          "rank": 5,
+          "brand": "大众",
+          "model": "朗逸",
+          "sales": 28650,
+          "change": -4.2
+        },
+        {
+          "rank": 6,
+          "brand": "比亚迪",
+          "model": "元 Plus",
+          "sales": 31240,
+          "change": 26.8
+        },
+        {
+          "rank": 7,
+          "brand": "比亚迪",
+          "model": "海鸥",
+          "sales": 29870,
+          "change": 38.5
+        },
+        {
+          "rank": 8,
+          "brand": "大众",
+          "model": "帕萨特",
+          "sales": 20530,
+          "change": 3.5
+        },
+        {
+          "rank": 9,
+          "brand": "丰田",
+          "model": "凯美瑞",
+          "sales": 18520,
+          "change": -4.8
+        },
+        {
+          "rank": 10,
+          "brand": "哈弗",
+          "model": "H6",
+          "sales": 15680,
+          "change": -8.5
+        },
+        {
+          "rank": 11,
+          "brand": "吉利",
+          "model": "星瑞",
+          "sales": 15230,
+          "change": 11.2
+        },
+        {
+          "rank": 12,
+          "brand": "比亚迪",
+          "model": "汉",
+          "sales": 14820,
+          "change": 18.9
+        },
+        {
+          "rank": 13,
+          "brand": "理想",
+          "model": "L7",
+          "sales": 14250,
+          "change": 35.2
+        },
+        {
+          "rank": 14,
+          "brand": "长安",
+          "model": "CS75",
+          "sales": 13240,
+          "change": -1.8
+        },
+        {
+          "rank": 15,
+          "brand": "小鹏",
+          "model": "G6",
+          "sales": 12150,
+          "change": 52.3
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "month": 6,
+      "label": "6月",
+      "items": [
+        {
+          "rank": 1,
+          "brand": "比亚迪",
+          "model": "秦 Plus",
+          "sales": 52180,
+          "change": 22.6
+        },
+        {
+          "rank": 2,
+          "brand": "特斯拉",
+          "model": "Model Y",
+          "sales": 48750,
+          "change": 16.8
+        },
+        {
+          "rank": 3,
+          "brand": "比亚迪",
+          "model": "宋 Plus",
+          "sales": 43890,
+          "change": 19.4
+        },
+        {
+          "rank": 4,
+          "brand": "日产",
+          "model": "轩逸",
+          "sales": 35210,
+          "change": -1.5
+        },
+        {
+          "rank": 5,
+          "brand": "大众",
+          "model": "朗逸",
+          "sales": 30230,
+          "change": -3.6
+        },
+        {
+          "rank": 6,
+          "brand": "比亚迪",
+          "model": "元 Plus",
+          "sales": 33450,
+          "change": 27.9
+        },
+        {
+          "rank": 7,
+          "brand": "比亚迪",
+          "model": "海鸥",
+          "sales": 31580,
+          "change": 40.2
+        },
+        {
+          "rank": 8,
+          "brand": "大众",
+          "model": "帕萨特",
+          "sales": 21890,
+          "change": 4.2
+        },
+        {
+          "rank": 9,
+          "brand": "丰田",
+          "model": "凯美瑞",
+          "sales": 20150,
+          "change": -3.9
+        },
+        {
+          "rank": 10,
+          "brand": "哈弗",
+          "model": "H6",
+          "sales": 16890,
+          "change": -7.8
+        },
+        {
+          "rank": 11,
+          "brand": "吉利",
+          "model": "星瑞",
+          "sales": 16120,
+          "change": 12.5
+        },
+        {
+          "rank": 12,
+          "brand": "比亚迪",
+          "model": "汉",
+          "sales": 15680,
+          "change": 20.3
+        },
+        {
+          "rank": 13,
+          "brand": "理想",
+          "model": "L7",
+          "sales": 15120,
+          "change": 36.8
+        },
+        {
+          "rank": 14,
+          "brand": "长安",
+          "model": "CS75",
+          "sales": 13850,
+          "change": -0.8
+        },
+        {
+          "rank": 15,
+          "brand": "小鹏",
+          "model": "G6",
+          "sales": 12890,
+          "change": 55.6
+        }
+      ]
+    }
+  ],
+  "years": [
+    {
+      "year": 2026,
+      "label": "2026年度(截至6月)",
+      "items": [
+        {
+          "rank": 1,
+          "brand": "比亚迪",
+          "model": "秦 Plus",
+          "sales": 272266,
+          "change": 19.7
+        },
+        {
+          "rank": 2,
+          "brand": "特斯拉",
+          "model": "Model Y",
+          "sales": 253050,
+          "change": 13.85
+        },
+        {
+          "rank": 3,
+          "brand": "比亚迪",
+          "model": "宋 Plus",
+          "sales": 228670,
+          "change": 16.7
+        },
+        {
+          "rank": 4,
+          "brand": "日产",
+          "model": "轩逸",
+          "sales": 178330,
+          "change": -4.366666666666666
+        },
+        {
+          "rank": 5,
+          "brand": "大众",
+          "model": "朗逸",
+          "sales": 166330,
+          "change": -3.9166666666666665
+        },
+        {
+          "rank": 6,
+          "brand": "比亚迪",
+          "model": "元 Plus",
+          "sales": 166130,
+          "change": 24.266666666666666
+        },
+        {
+          "rank": 7,
+          "brand": "比亚迪",
+          "model": "海鸥",
+          "sales": 157590,
+          "change": 35.06666666666666
+        },
+        {
+          "rank": 8,
+          "brand": "大众",
+          "model": "帕萨特",
+          "sales": 113720,
+          "change": 0.9333333333333332
+        },
+        {
+          "rank": 9,
+          "brand": "丰田",
+          "model": "凯美瑞",
+          "sales": 103570,
+          "change": -6.033333333333332
+        },
+        {
+          "rank": 10,
+          "brand": "哈弗",
+          "model": "H6",
+          "sales": 87860,
+          "change": -10.1
+        },
+        {
+          "rank": 11,
+          "brand": "吉利",
+          "model": "星瑞",
+          "sales": 84940,
+          "change": 9.9
+        },
+        {
+          "rank": 12,
+          "brand": "比亚迪",
+          "model": "汉",
+          "sales": 81550,
+          "change": 16.4
+        },
+        {
+          "rank": 13,
+          "brand": "理想",
+          "model": "L7",
+          "sales": 78750,
+          "change": 31.616666666666664
+        },
+        {
+          "rank": 14,
+          "brand": "长安",
+          "model": "CS75",
+          "sales": 72910,
+          "change": -2.6666666666666665
+        },
+        {
+          "rank": 15,
+          "brand": "小鹏",
+          "model": "G6",
+          "sales": 66440,
+          "change": 47.41666666666668
+        }
+      ]
+    }
+  ]
+}
